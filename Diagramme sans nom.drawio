@@ -1,16 +1,16 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" version="24.8.0">
   <diagram name="Page-1" id="9f46799a-70d6-7492-0946-bef42562c5a5">
-    <mxGraphModel dx="1518" dy="1464" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
+    <mxGraphModel dx="1290" dy="1372" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="78961159f06e98e8-108" value="Utilisateur" style="swimlane;html=1;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=#ffffff;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fillColor=none;fontFamily=Verdana;fontSize=12" parent="1" vertex="1">
-          <mxGeometry x="20" y="-830.0000000000002" width="160" height="147" as="geometry" />
+          <mxGeometry x="20" y="-830" width="160" height="150" as="geometry" />
         </mxCell>
         <mxCell id="78961159f06e98e8-109" value="+ field: type" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="78961159f06e98e8-108" vertex="1">
           <mxGeometry y="26" width="160" height="4" as="geometry" />
         </mxCell>
-        <mxCell id="78961159f06e98e8-110" value="+ Nom" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="78961159f06e98e8-108" vertex="1">
+        <mxCell id="78961159f06e98e8-110" value="+ ID" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="78961159f06e98e8-108" vertex="1">
           <mxGeometry y="30" width="160" height="26" as="geometry" />
         </mxCell>
         <mxCell id="78961159f06e98e8-117" value="+ Prenom" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="78961159f06e98e8-108" vertex="1">
@@ -21,6 +21,9 @@
         </mxCell>
         <mxCell id="5d9QkIxnch06945Fq6pi-2" value="+ Numéro de téléphone" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="78961159f06e98e8-108" vertex="1">
           <mxGeometry y="102" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="c16AjR8w76n8XGQt4jYf-5" value="&amp;nbsp; + Nom&amp;nbsp;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="78961159f06e98e8-108">
+          <mxGeometry y="128" width="160" height="22" as="geometry" />
         </mxCell>
         <mxCell id="5d9QkIxnch06945Fq6pi-3" value="Adresse&amp;nbsp;" style="swimlane;html=1;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=#ffffff;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fillColor=none;fontFamily=Verdana;fontSize=12" parent="1" vertex="1">
           <mxGeometry x="20" y="-610.0000000000002" width="160" height="147" as="geometry" />
@@ -37,8 +40,20 @@
         <mxCell id="5d9QkIxnch06945Fq6pi-10" value="+ field: type" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="5d9QkIxnch06945Fq6pi-9" vertex="1">
           <mxGeometry y="26" width="160" height="4" as="geometry" />
         </mxCell>
-        <mxCell id="5d9QkIxnch06945Fq6pi-14" value="+ produit vendu&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="5d9QkIxnch06945Fq6pi-9" vertex="1">
+        <mxCell id="5d9QkIxnch06945Fq6pi-14" value="+ ordinateur portable&amp;nbsp;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="5d9QkIxnch06945Fq6pi-9" vertex="1">
           <mxGeometry y="30" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="c16AjR8w76n8XGQt4jYf-1" value="&lt;div style=&quot;forced-color-adjust: none;&quot;&gt;&amp;nbsp;+ ordinateur fix&amp;nbsp;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="5d9QkIxnch06945Fq6pi-9">
+          <mxGeometry y="56" width="160" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="c16AjR8w76n8XGQt4jYf-2" value="&lt;div style=&quot;forced-color-adjust: none;&quot;&gt;&amp;nbsp;+ écran&amp;nbsp;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="5d9QkIxnch06945Fq6pi-9">
+          <mxGeometry y="76" width="160" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="c16AjR8w76n8XGQt4jYf-3" value="&lt;div style=&quot;forced-color-adjust: none;&quot;&gt;&amp;nbsp;+ souris&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="5d9QkIxnch06945Fq6pi-9">
+          <mxGeometry y="96" width="160" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="c16AjR8w76n8XGQt4jYf-4" value="&lt;div style=&quot;forced-color-adjust: none;&quot;&gt;&amp;nbsp;+ clavier&amp;nbsp;&lt;/div&gt;&lt;div style=&quot;forced-color-adjust: none;&quot;&gt;&lt;br&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="5d9QkIxnch06945Fq6pi-9">
+          <mxGeometry y="116" width="160" height="20" as="geometry" />
         </mxCell>
         <mxCell id="5d9QkIxnch06945Fq6pi-15" value="Panier" style="swimlane;html=1;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=#ffffff;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fillColor=none;fontFamily=Verdana;fontSize=12" parent="1" vertex="1">
           <mxGeometry x="20" y="-173.00000000000023" width="160" height="147" as="geometry" />
@@ -65,7 +80,7 @@
           <mxGeometry y="26" width="160" height="4" as="geometry" />
         </mxCell>
         <mxCell id="5d9QkIxnch06945Fq6pi-40" value="Tarif Produit&amp;nbsp;" style="swimlane;html=1;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=#ffffff;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fillColor=none;fontFamily=Verdana;fontSize=12" parent="1" vertex="1">
-          <mxGeometry x="480" y="-173.00000000000023" width="160" height="147" as="geometry" />
+          <mxGeometry x="470" y="-173.00000000000023" width="160" height="147" as="geometry" />
         </mxCell>
         <mxCell id="5d9QkIxnch06945Fq6pi-41" value="+ field: type" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="5d9QkIxnch06945Fq6pi-40" vertex="1">
           <mxGeometry y="26" width="160" height="4" as="geometry" />
